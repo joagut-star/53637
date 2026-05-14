@@ -1,0 +1,21 @@
+<programa> ::= (<funcion>)+
+
+<funcion>::= "funcion" <identificador> "(" [<parametros>] ")" "{" [<instrucciones>] "}"
+
+<parametros> == <identificador> {"," <identificador>}*
+
+<instrucciones> ::= {<leer> | <escribir> | <asignacion>}*
+
+<leer>::= "leer" "(" <identificador> ")" ";"
+
+<escribir> ::= "escribir" "(" <expresion> ")" ";"
+
+<asignacion>::= <identificador> "=" <expresion> ";"
+
+<expresion> ::= <numero> | <cadena> | <identificador>
+
+<identificador>::= [a-zA-Z][a-zA-Z0-9]*
+
+<numero> ::= [0-9]+
+
+<cadena>::='"'[^"]*'"'
