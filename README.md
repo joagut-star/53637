@@ -6,7 +6,7 @@ El analizador procesa un archivo input.txt, verifica la validez del código fuen
 
 Instalación:
 
-Clonar el repositorio: git clone https://github.com/joagut-star/53637.git
+Clonar la carpeta del repositorio: git clone https://github.com/joagut-star/53637/tree/main/analizador%20funcion
 
 Es necesario tener instalado:
 Node.js, Java JDK y ANTLR4
