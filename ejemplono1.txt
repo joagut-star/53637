@@ -1,5 +1,0 @@
-funcion saludar(){
-    escribir ("hola");
-    leer (nombre);
-    escribir (tu nombre es  + nombre);
-}
