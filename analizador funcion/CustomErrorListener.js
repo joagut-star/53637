@@ -16,7 +16,7 @@ export class CustomErrorListener extends antlr4.error.ErrorListener {
 
     printErrors() {
         console.error("\n===============================");
-        console.error("❌ ERRORES DE SINTAXIS/LÉXICOS");
+        console.error("ERRORES DE SINTAXIS/LÉXICOS");
         console.error("===============================");
         this.errores.forEach(err => console.error(`  -> ${err}`));
         console.error("===============================\n");
